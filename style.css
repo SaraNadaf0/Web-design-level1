@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding:0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+  /*  background-color:; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+}
+
+#nav h3{
+    font-size: 17px;
+    border: 1.5px solid #000;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#nav i{
+    font-size: 16px;
+    border: 1.5px solid #000;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+
+#nav-part2{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+   
+}
+
+#nav-part2> i{
+    border: none;
+    background-color: orangered;
+    color:white;
+}
+
+
+
+#nav h2{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid #000;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+}
+
+#nav #signup-btn {
+    border: none;
+    background-color: orangered;
+    color:white;
+}
+
+#main>h1{
+    font-size: 120px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50% ;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+
+img{
+    height: 370px;
+    width: 320px;
+    object-fit: cover ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+
+#img1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img3{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#btm-right{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#main #nav-part4{
+    position: absolute;
+    left: 89%;
+    top: 86%;
+    font-size: 22px;
+}
+
+#nav-part5 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; /* add this to make it on top of the images */
+    
+}
+  
+#nav-part5 h2 {
+    font-size:17px;
+    font-weight: 500;
+    margin: 0;
+    background-color: #fff;
+    padding: 6px 6px;
+    border-radius: 50px;
+}
+  
+#nav-part5 i{
+
+    font-size: 22px;
+    border: none;
+    font-weight: 500;
+    padding: 6px 9px;
+    border-radius: 100px;
+    background-color: #fff;
+    
+}
+
+.black-circle-outline {
+    position: absolute;
+    width: 100px; /* even larger size */
+    height: 100px; /* even larger size */
+    border-radius: 50%;
+    border: 2px solid black;
+    top:100%;
+    bottom: 5%;/* center vertically */
+    left: 50%; /* center horizontally */
+    transform: translate(-50%, -50%); /* centering trick */
+    font-size: 100%;
+}
+
+#arrow-down {
+    position: absolute;
+    bottom: 0px; /* adjust the value to your liking */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 20;
+}
+
+#red-dot {
+    background-color: orangered;
+    width: 10px; /* adjust the size of the dot */
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 89%; /* adjust the position to be above the text */
+    left: 3%; /* adjust the position to be aligned with the text */
+  }
+
+
+/* Level 1 project 1 completed 🥳
+time for some hot dudu and peaceful sleep */
